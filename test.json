@@ -1,8 +1,9 @@
-
 {
+"scenesource":{
 		"name":"scene",
 		"degree_of_freedom":3,
 		"Camera":true,
 		"Initial Position":true
 }
-		
+	
+}	
