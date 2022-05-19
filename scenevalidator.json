@@ -56,16 +56,37 @@
    },
    "_gravity":{
       "req":"mandatory",
+      "typeof":"number",
+      "%comment%":"Allows earth gravity ground, else provide value in meter per second"
+   },
+   "_interaction":{
+      "req":"mandatory",
       "typeof":"boolean",
-      "%comment%":"Allows earth gravity ground, else in a free fall scp"
+      "%comment%":"This describes the interaction capacity in the scene."
    },
-   "_interaction":"",
    "_nestedscene":{
-      "#scenecount":"",
-      "#sid_order":"a,b,c"
+      "req":"mandatory",
+      "typeof":"number",
+      "%comment%":"To understand the nested scenes, their count and id values with cross validation"
    },
-   "_audio":"",
-   "_timeline":"",
-   "_Opttxt1":"",
-   "@context_mock":""
+   "_audio":{
+      "req":"mandatory",
+      "typeof":"boolean",
+      "%comment%":"true for spatial audio, false for no spatial audio"
+   },
+   "_timeline":{
+      "req":"mandatory",
+      "typeof":"boolean",
+      "%comment%":"true for timed scene with dynamic events, false for a static scene with static events"
+   },
+   "_Opttxt1":{
+      "req":"optional",
+      "typeof":"string",
+      "%comment%":"For user optional text"
+   },
+   "@context_mock":{
+      "req":"optional",
+      "typeof":"string",
+      "%comment%":"For external reference URLs"
+   }
 }
