@@ -1,0 +1,55 @@
+{
+   "_scenename":{
+      "req":"mandatory",
+      "typeof":"string",
+      "%comment%":"Name of the Scene"
+   },
+   "_id":{
+      "req":"mandatory",
+      "typeof":"string",
+      "%comment%":"A fillable Unique Identifier of a Scene to distinguish the scene"
+   },
+   "_label":{
+      "req":"optional",
+      "typeof":"string",
+      "%comment%":"A fillable Optional text field for scene description in 50 words"
+   },
+   "_scenearea":{
+      "req":"mandatory",
+      "typeof":"number",
+      "%comment%":"defines the boundaries of the virtual play area to consittute multiple playareas where articles and scene users interact with length, breadth, height ending up in a cube or cuboid."
+   },
+   "_playarea":{
+      "req":"mandatory",
+      "typeof":"number",
+      "%comment%":"defines the boundaries of the virtual play area where articles and scene users interact with length, breadth, height ending up in a cube or cuboid. The size of playarea should be less than scenearea."
+   },
+   "_camera":{
+      "req":"mandatory",
+      "typeof":"boolean",
+      "%comment%":"true for yes, false for no. This is to set initial camera in the scene"
+   },
+   "_initialpos":{
+      "req":"mandatory",
+      "typeof":"number",
+      "%comment%":"provide camera initial position in x,y,z coordinate values in a 3D plane with {0,0,0} as center horizon"
+   },
+   "_horizon":{
+      "req":"mandatory",
+      "typeof":"boolean",
+      "%comment%":"true for yes, false for no. This is to set horizon sun to map the terrian with real world"
+   },
+   "_dof":"",
+   "_skybox":"",
+   "_controllers":"",
+   "_gravity":"",
+   "_interaction":"",
+   "_nestedscene":{
+      "#scenecount":"",
+      "#sid_order":"a,b,c"
+   },
+   "_audio":"",
+   "_timeline":"",
+   "_Opttxt1":"",
+   "@context_mock":""
+}
