@@ -4,12 +4,12 @@
       "typeof":"string",
       "%comment%":"Name of the Scene"
    },
-   "_id":{
+   "_sid":{
       "req":"mandatory",
       "typeof":"string",
       "%comment%":"A fillable Unique Identifier of a Scene to distinguish the scene"
    },
-   "_label":{
+   "_slabel":{
       "req":"optional",
       "typeof":"string",
       "%comment%":"A fillable Optional text field for scene description in 50 words"
