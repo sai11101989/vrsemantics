@@ -1,0 +1,21 @@
+{
+   "name":"grammer",
+   "req":{
+      "value":"mandatory",
+      "value":"optional"
+   },
+   "typeof":{
+      "value":"number",
+      "value":"string",
+      "value":[
+         "object",
+         "date",
+         "array",
+         "string",
+         "number",
+         "boolean"
+      ],
+      "value":"object",
+      "value":"function"
+   }
+}
