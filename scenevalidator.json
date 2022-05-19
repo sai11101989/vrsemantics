@@ -39,10 +39,26 @@
       "typeof":"boolean",
       "%comment%":"true for yes, false for no. This is to set horizon sun to map the terrian with real world"
    },
-   "_dof":"",
-   "_skybox":"",
-   "_controllers":"",
-   "_gravity":"",
+   "_dof":{
+      "req":"mandatory",
+      "typeof":"number",
+      "%comment%":"accepts two values 3 and 6. Throw errors for the rest of the values"
+   },
+   "_skybox":{
+      "req":"mandatory",
+      "typeof":"number",
+      "%comment%":"accepts two values 3 and 6. Throw errors for the rest of the values"
+   },
+   "_controllers":{
+      "req":"mandatory",
+      "typeof":"string",
+      "%comment%":"accepts three multip type values haptic_wrist, hand, haptic_limb, haptic_obody, haptic_null. Throw errors for the rest of the values"
+   },
+   "_gravity":{
+      "req":"mandatory",
+      "typeof":"boolean",
+      "%comment%":"Allows earth gravity ground, else in a free fall scp"
+   },
    "_interaction":"",
    "_nestedscene":{
       "#scenecount":"",
