@@ -1,0 +1,24 @@
+{
+"_scenename":"",
+"_id":"",
+"_scenearea":{
+  "#length":"", "#breadth":"","#height":""
+},
+"_playarea":{
+     "#length":"", "#breadth":"","#height":""
+},
+"_camera":"",
+"_initialpos":"",
+"_horizon":"",
+"_dof":"",
+"_skybox":"",
+"_controllers":"",
+"_gravity":"",
+"_interaction":"",
+"_nestedscene":{
+     "#scenecount":"",
+     "#sid_order": "a,b,c"
+},
+"_audio":"",
+"_timeline":""
+}
