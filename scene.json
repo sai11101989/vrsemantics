@@ -9,7 +9,9 @@
      "#length":"", "#breadth":"","#height":""
 },
 "_camera":"",
-"_initialpos":"",
+"_initialpos":{
+     "#x":"", "#y":"","#z":""
+},
 "_horizon":"",
 "_dof":"",
 "_skybox":"",
