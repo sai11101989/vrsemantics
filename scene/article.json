@@ -5,12 +5,40 @@
    "_articletype":"",
    "_Ispointcloud":{
       "value":"",
+      "material":"",
+      "dimension":"",
       "psdataset_url":""
    },
    "_IsSolid":{
       "value":"",
+      "material":"",
       "dimension":"",
       "sdataset_url":""
+   },
+   "_IsVoxel":{
+      "value":"",
+      "material":"",
+      "dimension":"",
+      "vdataset_url":""
+   },
+   "_shadow":{
+      "value":""
+   },
+   "_IsRigid":{
+      "value":""
+   },
+   "_OnCollision":{
+      "value":""
+   },
+   "_CanRotate":{
+      "value":"",
+      "rate":""
+   },
+   "_Ismotion":{
+      "value":""
+   },
+   "_Isluminous":{
+      "value":""
    },
    "_Opttxt":""
 }
