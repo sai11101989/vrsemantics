@@ -1,6 +1,7 @@
 {
 "_scenename":"",
 "_id":"",
+"_label":"",
 "_scenearea":{
   "#length":"", "#breadth":"","#height":""
 },
@@ -20,5 +21,7 @@
      "#sid_order": "a,b,c"
 },
 "_audio":"",
-"_timeline":""
+"_timeline":"",
+"_Opttxt1":"",
+"_context":""  
 }
