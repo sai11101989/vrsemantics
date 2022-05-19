@@ -1,29 +1,38 @@
 {
-"_scenename":"",
-"_id":"",
-"_label":"",
-"_scenearea":{
-  "#length":"", "#breadth":"","#height":""
-},
-"_playarea":{
-     "#length":"", "#breadth":"","#height":""
-},
-"_camera":"",
-"_initialpos":{
-     "#x":"", "#y":"","#z":""
-},
-"_horizon":"",
-"_dof":"",
-"_skybox":"",
-"_controllers":"",
-"_gravity":"",
-"_interaction":"",
-"_nestedscene":{
-     "#scenecount":"",
-     "#sid_order": "a,b,c"
-},
-"_audio":"",
-"_timeline":"",
-"_Opttxt1":"",
-"@context_mock":""  
+   "_scenename":"",
+   "_id":"",
+   "_label":"",
+   "_scenearea":{
+      "#length":"",
+      "#breadth":"",
+      "#height":""
+   },
+   "_playarea":{
+      "#length":"",
+      "#breadth":"",
+      "#height":""
+   },
+   "_camera":"",
+   "_initialpos":{
+      "#x":"",
+      "#y":"",
+      "#z":""
+   },
+   "_horizon":"",
+   "_dof":"",
+   "_skybox":"",
+   "_controllers":"",
+   "_gravity":{
+      "id":"",
+      "value":""
+   },
+   "_interaction":"",
+   "_nestedscene":{
+      "#scenecount":"",
+      "#sid_order":"a,b,c"
+   },
+   "_audio":"",
+   "_timeline":"",
+   "_Opttxt1":"",
+   "@context_mock":""
 }
