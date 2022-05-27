@@ -56,7 +56,18 @@
          "CollisionPolling":"discreet/continous"
       }
    },
-   "_audio":"true",
+   "_audio":{
+      "value":"true",
+      "type":"static/dynamic",
+      "src":"/path",
+      "volume":"10",
+      "PlayInloop":"false",
+      "IsSurround":"true",
+      "Dopplerlevel":"0.9",
+      "spred":"",
+      "mindist":"",
+      "maxdist":""
+   },
    "_timeline":"true",
    "_Opttxt1":"null",
    "@context_img_source":"_blank"
