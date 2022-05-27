@@ -31,7 +31,8 @@
    "_horizon":"true",
    "_dof":"6",
    "_skybox":"yes",
-   "_controllers":"hand",
+   "_controllers":
+	{"type":"hand", "raycast":"true", "raydistance":"10", "raythinkness":"1", "raycolor":"red", "raytype":"curve"},
    "_gravity":{
      "value":"10"
    },
