@@ -3,6 +3,20 @@
    "_sid":"_gameball",
    "_slabel":"This is used to roll on pins",
    "_IsHidden":"false",
+   "_Is3DObject":{
+      "value":"true",
+      "shape":"cube",
+      "IsText":{
+         "value":"false",
+         "Is3D":"false"
+      },
+      "lighting":{
+         "CastShadow":"true",
+         "ReceiveShadow":"true",
+         "ContributeGlobalIlumination":"true"
+      }
+   },
+   "IsIlluminate":"false",
    "Transform":{
       "_initialpos":{
          "#x":"0",
