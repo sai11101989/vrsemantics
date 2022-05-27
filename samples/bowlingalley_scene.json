@@ -9,7 +9,7 @@
       "#height":"15"
    },   
    "_camera":
-{ 
+  { 
      "IsSceneObject":"true",
      "trackingorigin":"floor"
    },
@@ -18,6 +18,16 @@
       "#y":"5",
       "#z":"0"
    },
+   "_viewport":{
+      "#x":"0",
+      "#y":"0",
+      "#w":"1",
+	  "#h":"1"
+	 },
+	"_clippingplane":{
+	"near_cp":"0.01",
+	"far_cp":"1000"
+	}, 
    "_horizon":"true",
    "_dof":"6",
    "_skybox":"yes",
