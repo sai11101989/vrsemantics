@@ -1,0 +1,34 @@
+{
+   "_scenename":"Bowlling Alley",
+   "_sid":"45189",
+   "_slabel":"This is a interactive game",
+      "_playarea":{
+      "#pid":"p1",
+      "#length":"20",
+      "#breadth":"10",
+      "#height":"15"
+   },   
+   "_camera":"true",
+   "_initialpos":{
+      "#x":"0",
+      "#y":"5",
+      "#z":"0"
+   },
+   "_horizon":"true",
+   "_dof":"6",
+   "_skybox":"yes",
+   "_controllers":"hand",
+   "_gravity":{
+     "value":"10"
+   },
+   "_interaction":"true",
+   "_linkedscene":{
+      "#value":"false",
+      "#scenecount":"null",
+      "#sid_order":"null"
+   },
+   "_audio":"true",
+   "_timeline":"true",
+   "_Opttxt1":"null",
+   "@context_mock":"_blank"
+}
