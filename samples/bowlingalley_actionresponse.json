@@ -13,27 +13,35 @@
          "targetObj":[
             {
                "value":"Pin",
+               "actresid":"Ball_pin",
                "IsCollision":"true",
                "response":"natural/custom",
-               "comment":"<freetext>"
+               "comment":"<freetext>",
+               "Syncronous":"1"
             },
             {
                "value":"floor",
+               "actresid":"Ball_floor",
                "IsCollision":"true",
                "response":"natural/custom",
-               "comment":"<freetext>"
+               "comment":"<freetext>",
+               "Syncronous":"1"
             },
             {
                "value":"gutter",
+               "actresid":"Ball_gutter",
                "IsCollision":"true",
                "response":"natural/custom",
-               "comment":"<freetext>"
+               "comment":"<freetext>",
+               "Syncronous":"1"
             },
             {
                "value":"scoreboard",
+               "actresid":"Ball_scoreboard",
                "IsCollision":"false",
                "response":"passthrough",
-               "comment":"<freetext>"
+               "comment":"<freetext>",
+               "Syncronous":"0"
             }
          ]
       },
@@ -42,9 +50,11 @@
          "targetObj":[
             {
                "value":"*",
+               "actresid":"Pin_*",
                "IsCollision":"true",
                "response":"natural",
-               "comment":"<freetext>"
+               "comment":"<freetext>",
+               "Syncronous":"0"
             }
          ]
       }
