@@ -8,7 +8,11 @@
       "#breadth":"10",
       "#height":"15"
    },   
-   "_camera":"true",
+   "_camera":
+{ 
+     "IsSceneObject":"true",
+     "trackingorigin":"floor"
+   },
    "_initialpos":{
       "#x":"0",
       "#y":"5",
@@ -22,7 +26,7 @@
      "value":"10"
    },
    "_interaction":"true",
-   "_linkedscene":{
+   "_nestedscene":{
       "#value":"false",
       "#scenecount":"null",
       "#sid_order":"null"
