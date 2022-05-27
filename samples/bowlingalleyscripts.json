@@ -1,0 +1,9 @@
+{
+	"eventname":"EventScript",
+	"eventid":"Ball_pin",
+	"sname":"Score_Calculation",
+	"ObjectUsed": ["ball", "pin"],
+	"script":[
+	{"#1":"if (ball hits pin*) 	then score=10"},
+   {"#2": "if (ball hits n pins)	then score=n where n>=0"}]
+	}
