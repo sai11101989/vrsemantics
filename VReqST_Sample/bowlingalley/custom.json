@@ -1,1 +1,50 @@
+{
+	"setvalues":
+	{
+	"custom_variables":"$fall,$hits,$roll",
+	"custom_functions":"#count",
+	"_anypins":"_pinsetter1,_pinsetter2,_pinsetter3,_pinsetter4,_pinsetter5,_pinsetter6,_pinsetter7,_pinsetter8,_pinsetter9,_pinsetter10",
+	"point":"null",
+	"strike_point":"10",
+	"ind_point":"1",
+	"min_score":"0",
+	"max_score":"null",
+	"rObjList":[
+      "_camera",
+      "_gameball",
+      "_pinsetter1","_pinsetter2","_pinsetter3",
+	  "_pinsetter4","_pinsetter5","_pinsetter6",
+	  "_pinsetter7","_pinsetter8","_pinsetter9",
+	  "_pinsetter10",
+      "_pinplane",
+      "_trackplane",
+      "_gamegutter",
+	  "_scoreboard"
+		]
+	},
+	
+	"rules":[
+	{
+		"rid":"pinfall",
+		"rtitle":"rule for pin fall",
+		"logic":"aWYoIHtfZ2FtZWJhbGwgJGhpdHMgX2FueXBpbn0gT1Ige19hbnlwaW4gJGhpdHMgX2FueXBpbn0pCnRoZW4gJGZhbGwoX2FueXBpbik="
+	},
+	{
+		"rid":"scoreupdate",
+		"rtitle":"rule for scoring",
+		"logic":"aWYgKCRyb2xsID0gdHJ1ZSkKcG9pbnQgPSAjY291bnQoJGZhbGwoX2FueXBpbikpICogaW5kX3BvaW50CmVsc2UgCnBvaW50ID0gbnVsbAo="
+	},
+	{
+		"rid":"strikescore",
+		"rtitle":"rule for scoring",
+		"logic":"aWYgKHskcm9sbCA9IHRydWV9IEFORCB7I2NvdW50KCRmYWxsKF9hbnlwaW4pPTEwfSkKdGhlbiBwb2ludCA9IHN0cmlrZV9wb2ludAplbHNlCnBvaW50ID0gbnVsbA=="
+	}
+	],
+	
+	"ruleorder":{
+		"ordertype":"asc",
+		"rorder":[ "pinfall","scoreupdate","strikescore"]
+	}
+}
+
 
