@@ -1,0 +1,17 @@
+Rule 1:
+if( {_gameball $hits _anypin} OR {_anypin $hits _anypin})
+then $fall(_anypin)
+
+Rule 2:
+if ($roll = true)
+point = #count($fall(_anypin)) * ind_point
+else 
+point = null
+
+Rule 3:
+if ({$roll = true} AND {#count($fall(_anypin)=10})
+then point = strike_point
+else
+point = null
+
+Use Base64 Encoder: https://think-easy-tools.web.app/base64
