@@ -62,7 +62,7 @@
    "_gravity":{
       "req":"mandatory",
       "typeof":"number",
-      "%comment%":"Allows earth gravity ground, else provide value in meter per second"
+      "%comment%":"Allows earth gravity ground, else provide value in meter per second. Default is 10 or 9.8"
    },
    "_interaction":{
       "req":"mandatory",
@@ -72,7 +72,7 @@
    "_nestedscene":{
       "req":"mandatory",
       "typeof":"number",
-      "%comment%":"To understand the nested scenes, their count and id values with cross validation"
+      "%comment%":"To understand the nested scenes, their count and id values with cross validation. It offers other details like scenecount to know number of nested scenesalong with sid_order for order of these scenes."
    },
    "_audio":{
       "req":"mandatory",
@@ -92,6 +92,11 @@
    "@context_mock":{
       "req":"optional",
       "typeof":"string",
-      "%comment%":"For external reference URLs"
+      "%comment%":"For external reference URLs like figma screens or other resource links"
+   },
+    "usertype":{
+      "req":"mandatory",
+      "typeof":"string",
+      "%comment%":"Defines the scene as Single user or Multi-user scene along with additional values like uplayarea to define the length, breadth and height of the user along with initialupos value in x,y,z coordinates"
    }
 }
