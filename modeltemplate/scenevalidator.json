@@ -24,10 +24,20 @@
       "typeof":"boolean",
       "%comment%":"true for yes, false for no. This is to set initial camera in the scene. Additional attributes include IsSceneObject which holds boolean value and trackingorigin holds string value i.e. either floor (physical real-world ground) or +/- height from the physical real-world ground. Example: 5+floor"
    },
-   "_initialpos":{
+   "_initialcamerapos":{
       "req":"mandatory",
       "typeof":"number",
       "%comment%":"provide camera initial position in x,y,z coordinate values in a 3D plane with {0,0,0} as center horizon"
+   },
+     "_viewport":{
+      "req":"mandatory",
+      "typeof":"number",
+      "%comment%":"provide viewport initial position in x,y coordinate values in a 2D plane with {0,0} as center horizon along with width and height w,h"
+   },
+  "_clippingplane":{
+      "req":"mandatory",
+      "typeof":"number",
+      "%comment%":"holds two values, near_cp and far_cp to represent near clipping plane and far clipping plane with value ranging from 0.0 to 1000000"
    },
    "_horizon":{
       "req":"mandatory",
@@ -47,7 +57,7 @@
    "_controllers":{
       "req":"mandatory",
       "typeof":"string",
-      "%comment%":"accepts three multip type values haptic_wrist, hand, haptic_limb, haptic_obody, haptic_null. Throw errors for the rest of the values"
+      "%comment%":"accepts three multip type values haptic_wrist, hand, haptic_limb, haptic_obody, haptic_null. Throw errors for the rest of the value. Additional values include raycast with true/false values, raydistance ranging between 0.0 to 10, raythickness ranging from 0.0 to 1, ray color holds any hex code, ray type holding a values straightline or curve"
    },
    "_gravity":{
       "req":"mandatory",
