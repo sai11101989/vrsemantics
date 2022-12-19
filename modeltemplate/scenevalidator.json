@@ -24,6 +24,16 @@
       "typeof":"boolean",
       "%comment%":"true for yes, false for no. This is to set initial camera in the scene. Additional attributes include IsSceneObject which holds boolean value and trackingorigin holds string value i.e. either floor (physical real-world ground) or +/- height from the physical real-world ground. Example: 5+floor"
    },
+       "IsSceneObject":{
+      "req":"mandatory",
+      "typeof":"boolean",
+      "%comment%":"true for yes, false for no. This is to set initial camera in the scene. Additional attributes include IsSceneObject which holds boolean value and trackingorigin holds string value i.e. either floor (physical real-world ground) or +/- height from the physical real-world ground. Example: 5+floor"
+   },
+     "trackingorigin":{
+      "req":"mandatory",
+      "typeof":"string",
+      "%comment%":"true for yes, false for no. This is to set initial camera in the scene. Additional attributes include IsSceneObject which holds boolean value and trackingorigin holds string value i.e. either floor (physical real-world ground) or +/- height from the physical real-world ground. Example: 5+floor"
+   },
    "_initialcamerapos":{
       "req":"mandatory",
       "typeof":"number",
