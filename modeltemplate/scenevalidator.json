@@ -106,7 +106,25 @@
    },
     "usertype":{
       "req":"mandatory",
-      "typeof":"string",
+      "typeof":"array",
       "%comment%":"Defines the scene as Single user or Multi-user scene along with additional values like uplayarea to define the length, breadth and height of the user along with initialupos value in x,y,z coordinates"
    }
+   "type":{
+ "root": "usertype",
+  "req":"mandatory",
+   "typeof":"string",
+   "%comment%":"asdfasdf"
+   }
+
+"#length":{
+ "root": "uplayarea",
+  "proot":"usertype", 
+  "req":"mandatory",
+   "typeof":"string",
+   "%comment%":"asdfasdf"
+   }
+
+
+
+
 }
