@@ -20,12 +20,8 @@
 		    },
 
 	    
-	   "routine": {
-	           "routeid":"",
-			   "starttime":"",
-			   "endtime":"",
-	           "order":[]
-				}
+	   "routine": [     {  "routeid":"",    "starttime":"",   "endtime":"",  "order":[] }]
+			
 	   
 	  
 }
