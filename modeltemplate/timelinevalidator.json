@@ -50,7 +50,7 @@
    },
   
   
-  ///
+ 
      "tasyncid":{
      "root": "animate_trigAsync",
       "req":"mandatory",
@@ -100,6 +100,11 @@
       "typeof":"string",
       "%comment%":"Mention your VR Scene name here"
    },
+   
+   "routine":{
+      "repeat":"allow"
+   },
+   
   
   "routeid":{
     "root": "routine",
