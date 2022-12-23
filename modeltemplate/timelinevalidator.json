@@ -3,24 +3,28 @@
      "root": "animate_trigSync",
       "req":"mandatory",
       "typeof":"number",
+      "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   "tsOntrigger":{
      "root": "animate_trigSync",
       "req":"optional",
       "typeof":"boolean",
+     "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
    "SyncObjList":{
      "root": "animate_trigSync",
       "req":"optional",
       "typeof":"array",
+      "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   "tSyncNote":{
      "root": "animate_trigSync",
       "req":"optional",
       "typeof":"string",
+     "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   
@@ -28,24 +32,28 @@
      "root": "animate_nontrigSync",
       "req":"mandatory",
       "typeof":"number",
+       "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   "ntsOntrigger":{
      "root": "animate_nontrigSync",
       "req":"optional",
       "typeof":"boolean",
+     "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
    "ntSyncObjList":{
      "root": "animate_nontrigSync",
       "req":"optional",
       "typeof":"array",
+      "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   "ntSyncNote":{
      "root": "animate_nontrigSync",
       "req":"optional",
       "typeof":"string",
+     "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   
@@ -55,24 +63,28 @@
      "root": "animate_trigAsync",
       "req":"mandatory",
       "typeof":"number",
+        "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   "taOntrigger":{
      "root": "animate_trigAsync",
       "req":"optional",
       "typeof":"boolean",
+     "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
    "AsyncObjList":{
      "root": "animate_trigAsync",
       "req":"optional",
       "typeof":"array",
+      "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   "tAsyncNote":{
      "root": "animate_trigAsync",
       "req":"optional",
       "typeof":"string",
+     "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   
@@ -80,24 +92,28 @@
      "root": "animate_nontrigAsync",
       "req":"mandatory",
       "typeof":"number",
+       "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   "ntaOntrigger":{
      "root": "animate_nontrigAsync",
       "req":"optional",
       "typeof":"boolean",
+     "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
    "ntAsyncObjList":{
      "root": "animate_nontrigAsync",
       "req":"optional",
       "typeof":"array",
+      "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
   "ntAsyncNote":{
      "root": "animate_nontrigAsync",
       "req":"optional",
       "typeof":"string",
+     "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
    
@@ -110,6 +126,7 @@
     "root": "routine",
     "req":"mandatory",
     "typeof":"number",
+     "repeat":"notallow",
      "%comment%":"Mention your VR Scene name here"
     
   },
@@ -117,6 +134,7 @@
     "root": "routine",
     "req":"optional",
     "typeof":"datetime",
+      "repeat":"notallow",
      "%comment%":"Mention your VR Scene name here"
     
   },
@@ -124,6 +142,7 @@
     "root": "routine",
     "req":"optional",
     "typeof":"datetime",
+      "repeat":"notallow",
      "%comment%":"Mention your VR Scene name here"
     
   },
@@ -131,6 +150,7 @@
     "root": "routine",
     "req":"optional",
     "typeof":"array",
+       "repeat":"notallow",
      "%comment%":"Mention your VR Scene name here"
     
   }
