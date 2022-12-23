@@ -118,7 +118,10 @@
    },
    
    "routine":{
-      "repeat":"allow"
+      "repeat":"allow",
+      "req":"mandatory",
+     "typeof":"array",
+       "%comment%":"Mention your VR Scene name here"
    },
    
   
