@@ -23,12 +23,11 @@
 		    },
 
 	    
-	   "routine": {
-	           "routeid":"11",
-			   "starttime":"00:30:00",
-			   "endtime":"00:55:00",
-	           "order":[21,23,22,24]
-				}
+	   "routine": [{ "routeid":"11",   "starttime":"00:30:00",   "endtime":"00:55:00",  "order":[21,23,22,24] },
+		       { "routeid":"12",   "starttime":"00:40:00",   "endtime":"00:45:00",  "order":[21,23] },
+		       { "routeid":"13",   "starttime":"00:10:00",   "endtime":"00:50:00",  "order":[22,24] }
+		       ]
+		       
 	   
 	  
 }
