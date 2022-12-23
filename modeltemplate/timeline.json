@@ -2,21 +2,21 @@
 	
      "animate_trigSync":{
                         "tsyncid":"",
-						"Ontrigger":"true", 
+						"tsOntrigger":"true", 
 						"SyncObjList":[ ], 
 						"tSyncNote":""
 		    },
       "animate_nontrigSync":{
 						"ntsyncid":"",
-                        "Ontrigger":"false", "SyncObjList":[ ], "ntSyncNote":""
+                        "ntsOntrigger":"false", "ntSyncObjList":[ ], "ntSyncNote":""
 		    },
       "animate_trigAsync":{
 						"tasyncid":"",
-                        "Ontrigger":"true", "AsyncObjList":[ ], "tAsyncNote":""
+                        "taOntrigger":"true", "AsyncObjList":[ ], "tAsyncNote":""
 		    },
       "animate_nontrigAsync":{
 						"ntasyncid":"",
-                        "Ontrigger":"false", "AsyncObjList":[ ], "ntAsyncNote":""
+                        "ntaOntrigger":"false", "ntAsyncObjList":[ ], "ntAsyncNote":""
 		    },
 
 	    
