@@ -1,1 +1,31 @@
+{
+	
+     "animate_trigSync":{
+                        "tsyncid":"",
+						"Ontrigger":"true", 
+						"SyncObjList":[ ], 
+						"tSyncNote":""
+		    },
+      "animate_nontrigSync":{
+						"ntsyncid":"",
+                        "Ontrigger":"false", "SyncObjList":[ ], "ntSyncNote":""
+		    },
+      "animate_trigAsync":{
+						"tasyncid":"",
+                        "Ontrigger":"true", "AsyncObjList":[ ], "tAsyncNote":""
+		    },
+      "animate_nontrigAsync":{
+						"ntasyncid":"",
+                        "Ontrigger":"false", "AsyncObjList":[ ], "ntAsyncNote":""
+		    },
 
+	    
+	   "routine": {
+	           "routeid":"",
+			   "starttime":"",
+			   "endtime":"",
+	           "order":[]
+				}
+	   
+	  
+}
