@@ -118,7 +118,7 @@
    },
    
    "routine":{
-      "repeat":"allow",
+      "repeat":"notallow",
       "req":"mandatory",
      "typeof":"array",
        "%comment%":"Mention your VR Scene name here"
@@ -129,7 +129,7 @@
     "root": "routine",
     "req":"mandatory",
     "typeof":"number",
-     "repeat":"notallow",
+     "repeat":"allow",
      "%comment%":"Mention your VR Scene name here"
     
   },
@@ -137,7 +137,7 @@
     "root": "routine",
     "req":"optional",
     "typeof":"datetime",
-      "repeat":"notallow",
+      "repeat":"allow",
      "%comment%":"Mention your VR Scene name here"
     
   },
@@ -145,7 +145,7 @@
     "root": "routine",
     "req":"optional",
     "typeof":"datetime",
-      "repeat":"notallow",
+      "repeat":"allow",
      "%comment%":"Mention your VR Scene name here"
     
   },
@@ -153,7 +153,7 @@
     "root": "routine",
     "req":"optional",
     "typeof":"array",
-       "repeat":"notallow",
+       "repeat":"allow",
      "%comment%":"Mention your VR Scene name here"
     
   }
