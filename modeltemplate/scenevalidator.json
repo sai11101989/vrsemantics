@@ -2,127 +2,207 @@
    "_scenename":{
       "req":"mandatory",
       "typeof":"string",
+	  "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
    "_sid":{
       "req":"mandatory",
       "typeof":"string",
+	  "repeat":"notallow",
       "%comment%":"A fillable Unique Identifier of the scene"
    },
    "_slabel":{
       "req":"optional",
       "typeof":"string",
+	  "repeat":"notallow",
       "%comment%":"A fillable Optional text field for scene description in 200 words"
    },
    "_playarea":{
       "req":"mandatory",
       "typeof":"number",
+	  "repeat":"notallow",
       "%comment%":"defines the boundaries of the virtual play area where articles and end users interact with length, breadth, height ending up in a cube or cuboid. It has additional attributes like pid which is a unique identifier in case of multiple play areas, length, breadth, height dimensions are measured in feets."
    },
    "_camera":{
       "req":"mandatory",
       "typeof":"boolean",
+	  "repeat":"notallow",
       "%comment%":"true for yes, false for no. This is to set initial camera in the scene. Additional attributes include IsSceneObject which holds boolean value and trackingorigin holds string value i.e. either floor (physical real-world ground) or +/- height from the physical real-world ground. Example: 5+floor"
    },
        "IsSceneObject":{
       "req":"mandatory",
       "typeof":"boolean",
+	  "repeat":"notallow",
       "%comment%":"true for yes, false for no. This is to set initial camera in the scene. Additional attributes include IsSceneObject which holds boolean value and trackingorigin holds string value i.e. either floor (physical real-world ground) or +/- height from the physical real-world ground. Example: 5+floor"
    },
      "trackingorigin":{
       "req":"mandatory",
       "typeof":"string",
+	  "repeat":"notallow",
       "%comment%":"true for yes, false for no. This is to set initial camera in the scene. Additional attributes include IsSceneObject which holds boolean value and trackingorigin holds string value i.e. either floor (physical real-world ground) or +/- height from the physical real-world ground. Example: 5+floor"
    },
    "_initialcamerapos":{
       "req":"mandatory",
       "typeof":"number",
+	  "repeat":"notallow",
       "%comment%":"provide camera initial position in x,y,z coordinate values in a 3D plane with {0,0,0} as center horizon"
    },
      "_viewport":{
       "req":"mandatory",
       "typeof":"number",
+	  "repeat":"notallow",
       "%comment%":"provide viewport initial position in x,y coordinate values in a 2D plane with {0,0} as center horizon along with width and height w,h"
    },
   "_clippingplane":{
       "req":"mandatory",
       "typeof":"number",
+	  "repeat":"notallow",
       "%comment%":"holds two values, near_cp and far_cp to represent near clipping plane and far clipping plane with value ranging from 0.0 to 1000000"
    },
    "_horizon":{
       "req":"mandatory",
       "typeof":"boolean",
+	  "repeat":"notallow",
       "%comment%":"true for yes, false for no. This is to set horizon sun to map the terrian with real world"
    },
    "_dof":{
       "req":"mandatory",
       "typeof":"number",
+	  "repeat":"notallow",
       "%comment%":"accepts two values 3 and 6. Throw errors for the rest of the values"
    },
    "_skybox":{
       "req":"mandatory",
       "typeof":"number",
+	  "repeat":"notallow",
       "%comment%":"accepts two values 3 and 6. Throw errors for the rest of the values"
    },
    "_controllers":{
       "req":"mandatory",
       "typeof":"string",
+	  "repeat":"notallow",
       "%comment%":"accepts three multip type values haptic_wrist, hand, haptic_limb, haptic_obody, haptic_null. Throw errors for the rest of the value. Additional values include raycast with true/false values, raydistance ranging between 0.0 to 10, raythickness ranging from 0.0 to 1, ray color holds any hex code, ray type holding a values straightline or curve"
    },
    "_gravity":{
       "req":"mandatory",
       "typeof":"number",
+	  "repeat":"notallow",
       "%comment%":"Allows earth gravity ground, else provide value in meter per second. Default is 10 or 9.8"
    },
    "_interaction":{
       "req":"mandatory",
       "typeof":"boolean",
+	  "repeat":"notallow",
       "%comment%":"This describes the interaction capacity in the scene."
    },
    "_nestedscene":{
       "req":"mandatory",
       "typeof":"number",
+	  "repeat":"notallow",
       "%comment%":"To understand the nested scenes, their count and id values with cross validation. It offers other details like scenecount to know number of nested scenesalong with sid_order for order of these scenes."
    },
    "_audio":{
       "req":"mandatory",
       "typeof":"boolean",
+	  "repeat":"notallow",
       "%comment%":"true for spatial audio, false for no spatial audio"
    },
    "_timeline":{
       "req":"mandatory",
       "typeof":"boolean",
+	  "repeat":"notallow",
       "%comment%":"true for timed scene with dynamic events, false for a static scene with static events"
    },
    "_Opttxt1":{
       "req":"optional",
       "typeof":"string",
+	  "repeat":"notallow",
       "%comment%":"For user optional text"
    },
    "@context_mock":{
       "req":"optional",
       "typeof":"string",
+	  "repeat":"notallow",
       "%comment%":"For external reference URLs like figma screens or other resource links"
    },
     "usertype":{
       "req":"mandatory",
       "typeof":"array",
+	  "repeat":"notallow",
       "%comment%":"Defines the scene as Single user or Multi-user scene along with additional values like uplayarea to define the length, breadth and height of the user along with initialupos value in x,y,z coordinates"
-   }
+   },
    "type":{
  "root": "usertype",
   "req":"mandatory",
    "typeof":"string",
+   "repeat":"allow",
    "%comment%":"asdfasdf"
-   }
-
+   },
 "#length":{
  "root": "uplayarea",
   "proot":"usertype", 
   "req":"mandatory",
-   "typeof":"string",
+   "typeof":"number",
+   "repeat":"allow",
+   "%comment%":"asdfasdf"
+   },
+   "#breadth":{
+ "root": "uplayarea",
+  "proot":"usertype", 
+  "req":"mandatory",
+   "typeof":"number",
+   "repeat":"allow",
+   "%comment%":"asdfasdf"
+   },
+   "#x":{
+ "root": "initialupos",
+  "proot":"usertype", 
+  "req":"mandatory",
+   "typeof":"number",
+   "repeat":"allow",
+   "%comment%":"asdfasdf"
+   },
+   "#y":{
+ "root": "initialupos",
+  "proot":"usertype", 
+  "req":"mandatory",
+   "typeof":"number",
+   "repeat":"allow",
+   "%comment%":"asdfasdf"
+   },
+   "#z":{
+ "root": "initialupos",
+  "proot":"usertype", 
+  "req":"mandatory",
+   "typeof":"number",
+   "repeat":"allow",
+   "%comment%":"asdfasdf"
+   },
+     "#x":{
+ "root": "uplayareacenter",
+  "proot":"usertype", 
+  "req":"mandatory",
+   "typeof":"number",
+   "repeat":"allow",
+   "%comment%":"asdfasdf"
+   },
+   "#y":{
+ "root": "uplayareacenter",
+  "proot":"usertype", 
+  "req":"mandatory",
+   "typeof":"number",
+   "repeat":"allow",
+   "%comment%":"asdfasdf"
+   },
+   "#z":{
+ "root": "uplayareacenter",
+  "proot":"usertype", 
+  "req":"mandatory",
+   "typeof":"number",
+   "repeat":"allow",
    "%comment%":"asdfasdf"
    }
+   
 
 
 
