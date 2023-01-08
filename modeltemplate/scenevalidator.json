@@ -23,21 +23,21 @@
       "typeof":"string",
       "%comment%":"pid"
    },
-   "#length":{
+   "#length_playarea":{
       "req":"mandatory",
       "root":"_playarea",
       "typeof":"string",
       "repeat":"allow",
       "%comment%":"pid"
    },
-   "#breadth":{
+   "#breadth_playarea":{
       "req":"mandatory",
       "root":"_playarea",
       "typeof":"string",
       "repeat":"allow",
       "%comment%":"pid"
    },
-   "#height":{
+   "#height_playarea":{
       "req":"mandatory",
       "root":"_playarea",
       "typeof":"string",
@@ -59,21 +59,21 @@
        "repeat":"notallow",
        "%comment%":"true for yes, false for no. This is to set initial camera in the scene. Additional attributes include IsSceneObject which holds boolean value and trackingorigin holds string value i.e. either floor (physical real-world ground) or +/- height from the physical real-world ground. Example: 5+floor"
     },
-    "#x":{
+    "#x_initialcamerapos":{
       "root":"_initialcamerapos",
       "req":"mandatory",
       "typeof":"number",
       "repeat":"allow",
       "%comment%":"emo"
     },
-    "#y":{
+    "#y_initialcamerapos":{
       "root":"_initialcamerapos",
       "req":"mandatory",
       "typeof":"number",
       "repeat":"allow",
       "%comment%":"emo"
     },
-    "#z":{
+    "#z_initialcamerapos":{
       "root":"_initialcamerapos",
       "req":"mandatory",
       "typeof":"number",
@@ -81,28 +81,28 @@
       "%comment%":"emo"
     },
 
-    "#x":{
+    "#x_viewport":{
       "root":"_viewport",
       "req":"mandatory",
       "typeof":"number",
       "repeat":"allow",
       "%comment%":"emo"
     },
-    "#y":{
+    "#y_viewport":{
       "root":"_viewport",
       "req":"mandatory",
       "typeof":"number",
       "repeat":"allow",
       "%comment%":"emo"
     },
-    "#w":{
+    "#w_viewport":{
       "root":"_viewport",
       "req":"mandatory",
       "typeof":"number",
       "repeat":"allow",
       "%comment%":"emo"
     },
-    "#h":{
+    "#h_viewport":{
       "root":"_viewport",
       "req":"mandatory",
       "typeof":"number",
@@ -257,7 +257,7 @@
     "repeat":"allow",
     "%comment%":"asdfasdf"
     },
- "#length":{
+ "#length_uplayarea":{
   "root": "uplayarea",
    "proot":"usertype", 
    "req":"mandatory",
@@ -265,7 +265,7 @@
     "repeat":"allow",
     "%comment%":"asdfasdf"
     },
-    "#breadth":{
+    "#breadth_uplayare":{
   "root": "uplayarea",
    "proot":"usertype", 
    "req":"mandatory",
@@ -273,7 +273,7 @@
     "repeat":"allow",
     "%comment%":"asdfasdf"
     },
-    "#height":{
+    "#height_uplayare":{
       "root": "uplayarea",
        "proot":"usertype", 
        "req":"mandatory",
@@ -281,7 +281,7 @@
         "repeat":"allow",
         "%comment%":"asdfasdf"
         },
-    "#x":{
+    "#x_initialupos":{
   "root": "initialupos",
    "proot":"usertype", 
    "req":"mandatory",
@@ -289,7 +289,7 @@
     "repeat":"allow",
     "%comment%":"asdfasdf"
     },
-    "#y":{
+    "#y_initialupos":{
   "root": "initialupos",
    "proot":"usertype", 
    "req":"mandatory",
@@ -297,7 +297,7 @@
     "repeat":"allow",
     "%comment%":"asdfasdf"
     },
-    "#z":{
+    "#z_initialupos":{
   "root": "initialupos",
    "proot":"usertype", 
    "req":"mandatory",
@@ -305,7 +305,7 @@
     "repeat":"allow",
     "%comment%":"asdfasdf"
     },
-      "#x":{
+      "#x_uplayareacenter":{
   "root": "uplayareacenter",
    "proot":"usertype", 
    "req":"mandatory",
@@ -313,7 +313,7 @@
     "repeat":"allow",
     "%comment%":"asdfasdf"
     },
-    "#y":{
+    "#y_uplayareacenter":{
   "root": "uplayareacenter",
    "proot":"usertype", 
    "req":"mandatory",
@@ -321,7 +321,7 @@
     "repeat":"allow",
     "%comment%":"asdfasdf"
     },
-    "#z":{
+    "#z_uplayareacenter":{
   "root": "uplayareacenter",
    "proot":"usertype", 
    "req":"mandatory",
