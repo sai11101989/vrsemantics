@@ -23,8 +23,8 @@
 	}
 	],
 	
-	"behaviororder":{
-		"ordertype":"asc",
-		"border":[ "pinfall","scoreupdate","strikescore"]
-	}
+	
+	
+	"borderasync": "pinfall,scoreupdate,strikescore",
+	"bordersync": "pinfall"
 }
