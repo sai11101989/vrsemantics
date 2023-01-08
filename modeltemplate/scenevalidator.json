@@ -27,23 +27,46 @@
       "req":"mandatory",
       "root":"_playarea",
       "typeof":"string",
-      "repeat":"allow",
+      "repeat":"notallow",
       "%comment%":"pid"
    },
    "#breadth_playarea":{
       "req":"mandatory",
       "root":"_playarea",
       "typeof":"string",
-      "repeat":"allow",
+      "repeat":"notallow",
       "%comment%":"pid"
    },
    "#height_playarea":{
       "req":"mandatory",
       "root":"_playarea",
       "typeof":"string",
-      "repeat":"allow",
+      "repeat":"notallow",
       "%comment%":"pid"
    },
+   
+   "#x_scenecenter":{
+      "req":"mandatory",
+      "root":"_playarea",
+      "typeof":"number",
+      "repeat":"notallow",
+      "%comment%":"pid"
+   },
+   "#y_scenecenter":{
+      "req":"mandatory",
+      "root":"_playarea",
+      "typeof":"number",
+      "repeat":"notallow",
+      "%comment%":"pid"
+   },
+   "#z_scenecenter":{
+      "req":"mandatory",
+      "root":"_playarea",
+      "typeof":"number",
+      "repeat":"notallow",
+      "%comment%":"pid"
+   },
+   
     
         "IsSceneObject":{
       "root":"_camera",
