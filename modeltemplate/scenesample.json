@@ -8,11 +8,9 @@
       "#breadth":"50",
       "#height":"50",
 	  "#comment":"Values in feets",
-	  "scenecenter":{
-	  "#x":"0",
-      "#y":"5",
-      "#z":"0"
-   }
+	  "#x_scenecenter":"0",
+      "#y_scenecenter":"5",
+      "#z_scenecenter":"0"
 	  },   
    "_camera":
   { 
@@ -20,15 +18,15 @@
      "trackingorigin":"floor"
    },
    "_initialcamerapos":{
-      "#x":"0",
-      "#y":"5",
-      "#z":"0"
+      "#x_initialcamerapos":"0",
+      "#y_initialcamerapos":"5",
+      "#z_initialcamerapos":"0"
    },
    "_viewport":{
-      "#x":"0",
-      "#y":"0",
-      "#w":"1",
-	  "#h":"1"
+      "#x_viewport":"0",
+      "#y_viewport":"0",
+      "#w_viewport":"1",
+	  "#h_viewport":"1"
 	 },
 	"_clippingplane":{
 	"near_cp":"0.01",
@@ -58,37 +56,37 @@
    {
 	 "type": "single",
 	 "uplayarea":{
-	 "#length":"20",
-     "#breadth":"20",
-	 "#height":"50"
+	 "#length_uplayarea":"20",
+     "#breadth_uplayarea":"20",
+	 "#height_uplayarea":"50"
 	},
 	"initialupos":{
-      "#x":"-10",
-      "#y":"0",
-      "#z":"0"
+      "#x_initialupos":"-10",
+      "#y_initialupos":"0",
+      "#z_initialupos":"0"
 		},
 		"uplayareacenter":{
-	  "#x":"-10",
-      "#y":"10",
-      "#z":"0"
+	  "#x_uplayareacenter":"-10",
+      "#y_uplayareacenter":"10",
+      "#z_uplayareacenter":"0"
 	  }
    },
 	  {
-	 "single": "multi",
+	 "type": "multi",
 	 "uplayarea":{
-	 "#length":"25",
-     "#breadth":"25",
-	 "#height":"50"
+	 "#length_uplayarea":"25",
+     "#breadth_uplayarea":"25",
+	 "#height_uplayarea":"50"
 	},
 	"initialupos":{
-      "#x":"-10",
-      "#y":"0",
-      "#z":"0"
+      "#x_initialupos":"-10",
+      "#y_initialupos":"0",
+      "#z_initialupos":"0"
 		},
 		"uplayareacenter":{
-	  "#x":"-10",
-      "#y":"10",
-      "#z":"0"
+	  "#x_uplayareacenter":"-10",
+      "#y_uplayareacenter":"10",
+      "#z_uplayareacenter":"0"
 	  }
 	  }
 	]
