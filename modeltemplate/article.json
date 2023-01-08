@@ -6,70 +6,57 @@
    "_slabel":"",
    "_IsHidden":"",
    "_enumcount":"",
-   "_Is3DObject":{
-      "value":"",
-      "HasChild":"",
-      "shape":{
-	  "type":"",
-      "dimension":{
-		 "radii":"",
-		 "volumn":"",
-		 "length":"",
-		 "breadth":"",
-		 "height":""
-	  }	  
-	  },	  
-      "IsText":{
-         "value":"",
-         "Is3D":""
-      },
+   "_Is3DObject":"",
+   "HasChild":"",
+   "shape":"",      
+   "dimension":{
+		 "dradii":"",
+		 "dvolumn":"",
+		 "dlength":"",
+		 "dbreadth":"",
+		 "dheight":""
+	  }, 
+      "IsText":"",
+      "IsText3D":"",
       "lighting":{
          "CastShadow":"",
          "ReceiveShadow":"",
          "ContributeGlobalIlumination":""
-      }
-   },
+      },
    "IsIlluminate":"",
-   "Transform":{
-      "_initialpos":{
-         "#x":"",
-         "#y":"",
-         "#z":""
+   "Transform_initialpos":{
+         "#x_initialpos":"",
+         "#y_initialpos":"",
+         "#z_initialpos":""
       },
-      "_initialrotation":{
-         "#x":"",
-         "#y":"",
-         "#z":""
+      "Transform_initialrotation":{
+         "#x_initialrotation":"",
+         "#y_initialrotation":"",
+         "#z_initialrotation":""
       },
-      "_objectscale":{
-         "#x":"",
-         "#y":"",
-         "#z":""
+      "Transform_objectscale":{
+         "#x_objectscale":"",
+         "#y_objectscale":"",
+         "#z_objectscale":""
       },
      "repeattransfrom":{
       "distfactorx":"",
 	  "distfactory":"",
 	  "distfactorz":"",
-}
-   },
+      },
    "Interaction":{
       "XRGrabInteractable":"",
-      "XRInteractionMask":{
-         "layer":""
-      },
+      "XRInteractionMaskLayer":"",
       "TrackPosition":"",
       "TrackRotation":"",
-      "Throw_Detach":{
-         "value":"",
-         "forcegravity":"",
-         "velocity":"",
-         "angularvelocity":""
+      "Throw_Detach":"",
+      "forcegravity":"",
+      "velocity":"",
+      "angularvelocity":""
       },
-      "Smoothing":{
-         "value":"",
-         "duration":""
-      },
-      "attachtransform":{
+      "Smoothing":"",
+     "Smoothing_duration":"",
+     "attachtransform":{
          "#rotate_x":"",
          "#rotate_y":"",
          "#rotate_z":"",
@@ -86,21 +73,17 @@
          "IsKinematic":"",
          "CanInterpolate":"",
          "CollisionPolling":""
-      }
-   },
-   "_audio":{
-      "value":"",
-      "type":"",
-      "src":"",
-      "volume":"",
-      "PlayInloop":"",
-      "IsSurround":"",
-      "Dopplerlevel":"",
-      "spread":"",
-      "mindist":"",
-      "maxdist":""
-   },
-   "_timeline":"",
+      },
+   "aud_hasaudio":"",
+   "aud_type":"",
+   "aud_src":"",
+   "aud_volume":"",
+   "aud_PlayInloop":"",
+   "aud_IsSurround":"",
+   "aud_Dopplerlevel":"",
+   "aud_spread":"",
+   "aud_mindist":"",
+   "aud_maxdist":"",
    "_Opttxt1":"",
    "@context_img_source":""
 }
