@@ -16,7 +16,7 @@
    "SyncObjList":{
      "root": "animate_trigSync",
       "req":"optional",
-      "typeof":"array",
+      "typeof":"object",
       "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
@@ -45,7 +45,7 @@
    "ntSyncObjList":{
      "root": "animate_nontrigSync",
       "req":"optional",
-      "typeof":"array",
+      "typeof":"object",
       "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
@@ -76,7 +76,7 @@
    "AsyncObjList":{
      "root": "animate_trigAsync",
       "req":"optional",
-      "typeof":"array",
+      "typeof":"object",
       "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
@@ -105,7 +105,7 @@
    "ntAsyncObjList":{
      "root": "animate_nontrigAsync",
       "req":"optional",
-      "typeof":"array",
+      "typeof":"object",
       "repeat":"notallow",
       "%comment%":"Mention your VR Scene name here"
    },
@@ -120,7 +120,7 @@
    "routine":{
       "repeat":"notallow",
       "req":"mandatory",
-     "typeof":"array",
+     "typeof":"object",
        "%comment%":"Mention your VR Scene name here"
    },
    
@@ -152,7 +152,7 @@
     "order":{
     "root": "routine",
     "req":"optional",
-    "typeof":"array",
+    "typeof":"object",
        "repeat":"allow",
      "%comment%":"Mention your VR Scene name here"
     
