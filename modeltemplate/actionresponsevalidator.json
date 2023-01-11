@@ -2,7 +2,7 @@
 
 "ObjAction":{
     "req":"mandatory",
-    "typeof":"array",
+    "typeof":"object",
      "repeat":"notallow",
      "%comment%":"Mention your VR Scene name here"
     },
