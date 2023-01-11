@@ -288,7 +288,7 @@
     "repeat":"allow",
     "%comment%":"asdfasdf"
     },
-    "#breadth_uplayare":{
+    "#breadth_uplayarea":{
   "root": "uplayarea",
    "proot":"usertype", 
    "req":"mandatory",
@@ -296,7 +296,7 @@
     "repeat":"allow",
     "%comment%":"asdfasdf"
     },
-    "#height_uplayare":{
+    "#height_uplayarea":{
       "root": "uplayarea",
        "proot":"usertype", 
        "req":"mandatory",
