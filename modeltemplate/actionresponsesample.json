@@ -4,10 +4,10 @@
 	"actresid":"ball_pinsetter1",
 	"sourceObj":"_gameball",
     "targetObj":"_pinsetter1",	          
-		"IsCollision":1,
+		"IsCollision":true,
     "response":"natural/custom",
     "comment":"<freetext>",
-    "Syncronous":1,
+    "Syncronous":true,
 	"repeatactionfor":""
 	},
 	
@@ -15,10 +15,10 @@
 	"actresid":"gameball_trackplane",
 	"sourceObj":"_gameball",
     "targetObj":"_trackplane",	          
-		"IsCollision":1,
+		"IsCollision":true,
     "response":"natural/custom",
     "comment":"<freetext>",
-    "Syncronous":1,
+    "Syncronous":true,
 	"repeatactionfor":"null"
 	},
 	
@@ -26,10 +26,10 @@
 	"actresid":"gameball_pinplane",
 	"sourceObj":"_gameball",
     "targetObj":"_pinplane",	         
-		"IsCollision":1,
+		"IsCollision":true,
     "response":"natural/custom",
     "comment":"<freetext>",
-    "Syncronous":1,
+    "Syncronous":true,
     "repeatactionfor":"null"
 	},
 	
@@ -37,10 +37,10 @@
 	"actresid":"gameball_gamegutter",
 	"sourceObj":"_gameball",
     "targetObj":"_gamegutter",	         
-		"IsCollision":1,
+		"IsCollision":true,
     "response":"natural/custom",
     "comment":"<freetext>",
-    "Syncronous":1,
+    "Syncronous":true,
     "repeatactionfor":"null"
 	},
 	
@@ -48,10 +48,10 @@
 	"actresid":"gameball_scoreboard",
 	"sourceObj":"_gameball",
     "targetObj":"_scoreboard",	          
-		"IsCollision":1,
+		"IsCollision":true,
     "response":"passthrough",
     "comment":"<freetext>",
-    "Syncronous":0,
+    "Syncronous":true,
     "repeatactionfor":"null"
 	},
 	
@@ -59,10 +59,10 @@
 	"actresid":"gameball_scoreboard",
 	"sourceObj":"_pinsetter1",
     "targetObj":"_pin2pin",	          
-		"IsCollision":1,
+		"IsCollision":true,
     "response":"natural",
     "comment":"<freetext>",
-    "Syncronous":0,
+    "Syncronous":true,
  "repeatactionfor":"_pinsetter3,_pinsetter4,_pinsetter5,_pinsetter6,_pinsetter7,_pinsetter8,_pinsetter9,_pinsetter10"
 	}
 	]
