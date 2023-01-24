@@ -3,26 +3,26 @@
 			"_objectname": "Ball",
 			"_sid": "_gameball",
 			"_slabel": "This is used to roll on pins",
-			"_IsHidden": "0",
-			"_enumcount": "1",
-			"_Is3DObject": "1",
-			"HasChild": "0",
+			"_IsHidden": 0,
+			"_enumcount": 1,
+			"_Is3DObject": 1,
+			"HasChild": 0,
 			"shape": "sphere",
 			"dimension": {
-				"dradii": "5",
+				"dradii": 5,
 				"dvolumn": "null",
 				"dlength": "null",
 				"dbreadth": "null",
-				"dheight": "null"
+				"dheigth": "null"
 			},
-			"IsText": "0",
-			"IsText3D": "0",
+			"IsText": false,
+			"IsText3D": false,
 			"lighting": {
 				"CastShadow": "1",
 				"ReceiveShadow": "1",
 				"ContributeGlobalIlumination": "1"
 			},
-			"IsIlluminate": "",
+			"IsIlluminate": true,
 			"Transform_initialpos": {
 				"#x_initialpos": "0",
 				"#y_initialpos": "5",
@@ -90,26 +90,26 @@
 			"_objectname": "Pin_5",
 			"_sid": "_pinsetter5",
 			"_slabel": "This is pin",
-			"_IsHidden": "0",
-			"_enumcount": "1",
-			"_Is3DObject": "1",
-			"HasChild": "0",
+			"_IsHidden": 0,
+			"_enumcount": 1,
+			"_Is3DObject": 1,
+			"HasChild": 0,
 			"shape": "sphere",
 			"dimension": {
-				"dradii": "5",
+				"dradii": 5,
 				"dvolumn": "null",
 				"dlength": "null",
 				"dbreadth": "null",
-				"dheight": "null"
+				"dheigth": "null"
 			},
-			"IsText": "0",
-			"IsText3D": "0",
+			"IsText": false,
+			"IsText3D": false,
 			"lighting": {
 				"CastShadow": "1",
 				"ReceiveShadow": "1",
 				"ContributeGlobalIlumination": "1"
 			},
-			"IsIlluminate": "",
+			"IsIlluminate": true,
 			"Transform_initialpos": {
 				"#x_initialpos": "0",
 				"#y_initialpos": "5",
@@ -153,7 +153,7 @@
 			"XRRigidObject": {
 				"value": "1",
 				"mass": "20",
-				"dragfriction": 5,
+				"dragfriction": "5",
 				"angulardrag": "4",
 				"Isgravityenable": "true",
 				"IsKinematic": "1",
