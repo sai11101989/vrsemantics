@@ -136,7 +136,7 @@
    "starttime":{
     "root": "routine",
     "req":"optional",
-    "typeof":"datetime",
+    "typeof":"string",
       "repeat":"allow",
      "%comment%":"Mention your VR Scene name here"
     
@@ -144,7 +144,7 @@
    "endtime":{
     "root": "routine",
     "req":"optional",
-    "typeof":"datetime",
+    "typeof":"string",
       "repeat":"allow",
      "%comment%":"Mention your VR Scene name here"
     
