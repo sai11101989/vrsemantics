@@ -351,12 +351,5 @@
     "typeof":"number",
     "repeat":"allow",
     "%comment%":"asdfasdf"
-    },
-    "single":{
-      "root":"usertype",
-      "req":"mandatory",
-      "typeof":"string",
-      "repeat":"notallow",
-      "%comment%":"kknkconef"
     }
  }
