@@ -21,10 +21,5 @@
 		"articlesused":"",
 		"logic":"aWYgKHskcm9sbCA9IHRydWV9IEFORCB7I2NvdW50KCRmYWxsKF9hbnlwaW4pPTEwfSkKdGhlbiBwb2ludCA9IHN0cmlrZV9wb2ludAplbHNlCnBvaW50ID0gbnVsbA=="
 	}
-	],
-	
-	
-	
-	"borderasync": "pinfall,scoreupdate,strikescore",
-	"bordersync": "pinfall"
+	]
 }
